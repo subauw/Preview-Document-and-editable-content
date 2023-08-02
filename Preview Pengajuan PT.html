@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Doc Preview Pengajuan PT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section class="vh-200 doc">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8">
+                    <div class="card shadow-2-strong">
+                        <div class="card-body p-5 text-center">
+                            <h3 class="mb-5">Data Pemohon</h3>
+                            <form action="" method="post">
+                                <!-- data pemohon start-->
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-4">
+                                        <label for="nama_pemohon" id="nama_pemohon" name="nama_pemohon"
+                                            class="col-form-label">Nama</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input class="form-control" type="text" value="Mr Beast" aria-label="readonly"
+                                            readonly />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="alamat_pemohon" id="alamat_pemohon" name="alamat_pemohon"
+                                            class="col-form-label">Alamat</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input class="form-control" type="text" value="Ara Ara Island"
+                                            aria-label="readonly" readonly />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="ktp_pemohon" id="ktp_pemohon" name="ktp_pemohon"
+                                            class="col-form-label">No KTP</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input class="form-control" type="number" value="1234567890"
+                                            aria-label="readonly" readonly />
+                                    </div>
+                                </div>
+                                <!-- data pemohon end -->
+
+                                <!-- data pendiri -->
+                                <div class="card-title pt-5 pb-2">
+                                    <h3>Data Pendiri PT</h3>
+                                </div>
+                                <!-- data pendiri 1 start-->
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-4">
+                                        <label for="namapendiri1" id="namapendiri1" name="namapendiri1"
+                                            class="col-form-label">Nama pendiri 1</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="namapendiri1" name="namapendiri1"
+                                            required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="ttl1" id="ttl1" name="ttl1" class="col-form-label">Tempat, tgl
+                                            lahir</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="ttl1" name="ttl1" />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="pekerjaan1" id="pekerjaan1" name="perkerjaan1"
+                                            class="col-form-label">Pekerjaan</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="pekerjaan1" name="pekerjaan1"
+                                            required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="alamat1" id="alamat1" name="alamat1"
+                                            class="col-form-label">Alamat</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="alamat1" name="alamat1" required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="ktp_pendiri1" id="ktp_pendiri1" name="ktp_pendiri1"
+                                            class="col-form-label">No KTP</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="ktp_pendiri1" name="ktp_pendiri1"
+                                            required />
+                                    </div>
+                                </div>
+                                <!-- data pendiri 1 end -->
+
+                                <!-- data pendiri 2 start -->
+                                <div class="row g-3 align-items-center pt-5">
+                                    <div class="col-4">
+                                        <label for="namapendiri2" id="namapendiri2" name="namapendiri2"
+                                            class="col-form-label">Nama pendiri 2</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="namapendiri2" name="namapendiri2"
+                                            required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="ttl2" id="ttl2" name="ttl2" class="col-form-label">Tempat, tgl
+                                            lahir</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="ttl2" name="ttl2" />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="pekerjaan2" id="pekerjaan2" name="perkerjaan2"
+                                            class="col-form-label">Pekerjaan</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="pekerjaan2" name="pekerjaan2"
+                                            required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="alamat2" id="alamat2" name="alamat2"
+                                            class="col-form-label">Alamat</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="alamat2" name="alamat2" required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="ktp_pendiri2" id="ktp_pendiri2" name="ktp_pendiri2"
+                                            class="col-form-label">No KTP</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="ktp_pendiri2" name="ktp_pendiri2"
+                                            required />
+                                    </div>
+                                </div>
+                                <!-- data pendiri 2 end -->
+
+                                <!-- data pendiri 3 start -->
+                                <div class="row g-3 align-items-center pt-5">
+                                    <div class="col-4">
+                                        <label for="namapendiri3" id="namapendiri3" name="namapendiri3"
+                                            class="col-form-label">Nama pendiri 3</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="namapendiri3" name="namapendiri3"
+                                            required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="ttl3" id="ttl3" name="ttl3" class="col-form-label">Tempat, tgl
+                                            lahir</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="ttl3" name="ttl3" />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="pekerjaan3" id="pekerjaan3" name="perkerjaan3"
+                                            class="col-form-label">Pekerjaan</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="pekerjaan3" name="pekerjaan3"
+                                            required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="alamat3" id="alamat3" name="alamat3"
+                                            class="col-form-label">Alamat</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="alamat3" name="alamat3" required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="ktp_pendiri3" id="ktp_pendiri3" name="ktp_pendiri3"
+                                            class="col-form-label">No KTP</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="ktp_pendiri3" name="ktp_pendiri3"
+                                            required />
+                                    </div>
+                                </div>
+                                <!-- data pendiri 3 end -->
+
+                                <!-- pemberi kuasa -->
+                                <div class="card-title pt-5">
+                                    <h3>Data Pemberi Kuasa</h3>
+                                </div>
+                                <div class="row g-3 align-items-center pt-5">
+                                    <div class="col-4">
+                                        <label for="nama_pemberi_kuasa" id="nama_pemberi_kuasa"
+                                            name="nama_pemberi_kuasa" class="col-form-label">Nama Pemberi Kuasa</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="nama_pemberi_kuasa"
+                                            name="nama_pemberi_kuasa" required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="ttl_pemberi_kuasa" id="ttl_pemberi_kuasa" name="ttl_pemberi_kuasa"
+                                            class="col-form-label">Tempat, tgl lahir</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="ttl_pemberi_kuasa"
+                                            name="ttl_pemberi_kuasa" />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="pekerjaan_pemberi_kuasa" id="pekerjaan_pemberi_kuasa"
+                                            name="pekerjaan_pemberi_kuasa" class="col-form-label">Pekerjaan</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="pekerjaan_pemberi_kuasa"
+                                            name="pekerjaan_pemberi_kuasa" required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="alamat_pemberi_kuasa" id="alamat_pemberi_kuasa"
+                                            name="alamat_pemberi_kuasa" class="col-form-label">Alamat</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="alamat_pemberi_kuasa"
+                                            name="alamat_pemberi_kuasa" required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="ktp_pendiri_kuasa" id="ktp_pendiri_kuasa" name="ktp_pendiri_kuasa"
+                                            class="col-form-label">No KTP</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="ktp_pendiri_kuasa"
+                                            name="ktp_pendiri_kuasa" required />
+                                    </div>
+                                </div>
+                                <!-- pemberi kuasa -->
+
+                                <!-- informasi -->
+                                <div class="card-title pt-5">
+                                    <h3>Data PT</h3>
+                                </div>
+                                <div class="row g-3 align-items-center pt-5">
+                                    <div class="col-4">
+                                        <label for="nama_pt" id="nama_pt" name="nama_pt" class="col-form-label">Nama
+                                            PT</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="nama_pt" name="nama_pt" required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="alamat_pt" id="alamat_pt" name="alamat_pt"
+                                            class="col-form-label">Tempat Kedudukan</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="alamat_pt" name="alamat_pt" />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="jenis_status_pt" id="jenis_status_pt" name="jenis_status_pt"
+                                            class="col-form-label">Jenis dan Status PT</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <select class="form-select">
+                                            <option value="1">
+                                                Non fasilitas dan status tertutup
+                                            </option>
+                                            <option value="2">Non Publik</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="modal" id="modal" name="modal" class="modal-form-label">Modal dasar
+                                            dan disetor</label>
+                                    </div>
+                                    <div class="col-3">
+                                        <input type="modal" class="form-control" id="modal" name="modal" required />
+                                    </div>
+                                    <div class="col-3">
+                                        <input type="disetor" class="form-control" id="disetor" name="disetor"
+                                            required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="bidang_usaha" id="bidang_usaha" name="bidang_usaha"
+                                            class="col-form-label">Bidang Usaha</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <form action="" method="POST">
+                                            <select name="jenis_pt" id="jenis_pt" multiple>
+                                                <option value="1">Teknologi</option>
+                                                <option value="2">Jasa</option>
+                                                <option value="3">Asuransi</option>
+                                                <option value="4">Kesehatan</option>
+                                                <option value="5">BUMN</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- informasi end -->
+
+                                <!-- nama dan saham -->
+                                <div class="card-title pt-5">
+                                    <h3>Nama dan Jumlah Saham</h3>
+                                </div>
+                                <div class="row g-3 align-items-center pt-5">
+                                    <div class="col-4">
+                                        <label for="nama_saham1" id="nama_saham1" name="nama_saham1"
+                                            class="col-form-label">Nama</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="nama_saham1" name="nama_saham1"
+                                            required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="jumlah_saham1" id="jumlah_saham1" name="jumlah_saham1"
+                                            class="col-form-label">Jumlah Saham</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="number" class="form-control" id="jumlah_saham1"
+                                            name="jumlah_saham1" placeholder="Rp. " />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-5">
+                                    <div class="col-4">
+                                        <label for="nama_saham2" id="nama_saham2" name="nama_saham2"
+                                            class="col-form-label">Nama</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="nama_saham2" name="nama_saham2"
+                                            required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="jumlah_saham2" id="jumlah_saham2" name="jumlah_saham2"
+                                            class="col-form-label">Jumlah Saham</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="number" class="form-control" id="jumlah_saham2"
+                                            name="jumlah_saham2" placeholder="Rp. " />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-5">
+                                    <div class="col-4">
+                                        <label for="nama_saham3" id="nama_saham3" name="nama_saham3"
+                                            class="col-form-label">Nama</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="nama_saham3" name="nama_saham3"
+                                            required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="jumlah_saham3" id="jumlah_saham3" name="jumlah_saham3"
+                                            class="col-form-label">Jumlah Saham</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="number" class="form-control" id="jumlah_saham3"
+                                            name="jumlah_saham3" placeholder="Rp. " />
+                                    </div>
+                                </div>
+                                <!-- nama dan saham end -->
+
+                                <!-- susunan direksi dan dewan komisaris -->
+                                <div class="card-title pt-5">
+                                    <h3>Susunan Direksi dan Dewan Komisaris</h3>
+                                </div>
+                                <div class="row g-3 align-items-center pt-5">
+                                    <div class="col-4">
+                                        <label for="direktur_utama" id="direktur_utama" name="direktur_utama"
+                                            class="col-form-label">Direktur Utama</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="direktur_utama"
+                                            name="direktur_utama" required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="direktur" id="direktur" name="direktur"
+                                            class="col-form-label">Direktur</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="direktur" name="direktur" />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-5">
+                                    <div class="col-4">
+                                        <label for="komisaris_utama" id="komisaris_utama" name="komisaris_utama"
+                                            class="col-form-label">Komisaris Utama</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="komisaris_utama"
+                                            name="komisaris_utama" required />
+                                    </div>
+                                </div>
+                                <div class="row g-3 align-items-center pt-3">
+                                    <div class="col-4">
+                                        <label for="komisaris" id="komisaris" name="komisaris"
+                                            class="col-form-label">Komisaris</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="komisaris" name="komisaris" />
+                                    </div>
+                                </div>
+                                <!-- susunan direksi dan dewan komisaris end -->
+
+                                <br />
+                                <button class="btn btn-warning btn-lg btn-block" type="submit">
+                                    Submit
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script>
+    <script>
+        // new MultiSelectTag('kategori')  // id
+        new MultiSelectTag("jenis_pt", {
+            rounded: true, // default true
+            shadow: true, // default false
+            placeholder: "Search", // default Search...
+            onChange: function (values) {
+                console.log(values);
+            },
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
