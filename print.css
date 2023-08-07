@@ -17,9 +17,12 @@
     h1 {
         font-size: 18px;
         margin-top: 0;
+        display: flex;
+        justify-content: center;
     }
 
     h2 {
+        margin-top: 2;
         font-size: 16px;
     }
 
@@ -45,5 +48,34 @@
     /* Sembunyikan elemen editor saat mode cetak aktif */
     #editor {
         display: none;
+    }
+
+    .signature-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .signature-container1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+    }
+
+    .signature-box {
+        width: 45%;
+        padding: 10px;
+        border: 1px solid #eeeeee;
+    }
+
+    .signature-box h4 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .signature-box p {
+        text-align: center;
+        font-style: italic;
+        margin: 0;
     }
 }
